@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+
+<div class="main">
+
+    <div class="centerbox">
+        <h1>React Sample.</h1>
+        <p>私の学習も兼ねてReact.jsのサンプルページを作成しました。</p>
+        <p>ここでは、React.jsを用いた部分を黒枠の内部で表示しています。</p>
+    </div>
+
+    <div class="centerbox">
+        <h2>Hello React!</h2>
+        <p>Hello React!を下のボックスに表示しています。</p>
+        <div class="box">
+            <div id="hello"></div>
+        </div>
+        <p>表示されていれば成功です。</p>
+    </div>
+
+    <div class="centerbox">
+        <h2>クリックで表示を変える</h2>
+        <p>用意されたボタンを押すことで表示が変わります。</p>
+        <div class="box">
+            <div id="clickbutton"></div>
+        </div>
+        <p>ボタンを押して表示が変われば成功です。</p>
+    </div>
+
+    <div class="centerbox">
+        <h2>カウントアップ</h2>
+        <p>用意されたボタンを押すことでカウントアップします。</p>
+        <div class="box">
+            <div id="countup"></div>
+        </div>
+        <p>ボタンを押してカウントされていれば成功です。</p>
+    </div>
+    
+    <!-- bundle.js -->
+    <script src="../src/bundle.js"></script>
+
+</body>
+</html>

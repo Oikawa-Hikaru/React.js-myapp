@@ -1,0 +1,8 @@
+.countupDiv h1 {
+    font-size: 26px;
+    padding: 0 5px;
+}
+
+.countupDiv button {
+    width: 50px;
+}
