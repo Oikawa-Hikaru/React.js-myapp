@@ -1,0 +1,4 @@
+.eachvegeDiv {
+    display: flex;
+    flex-direction: wrap;
+}
