@@ -13,9 +13,7 @@ class Countup extends React.Component {
   render() {
     return (
         <div className="countupDiv">
-            <h1>
-                {this.state.count}
-            </h1>
+            <h1>{this.state.count}</h1>
             <button onClick={() => {this.handleClick()}}>+</button>
         </div>
     );

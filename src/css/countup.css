@@ -1,6 +1,15 @@
+.countupDiv {
+    width: 70px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .countupDiv h1 {
-    font-size: 26px;
-    padding: 0 5px;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
 .countupDiv button {

@@ -5,8 +5,8 @@ class Samplebox extends React.Component {
         return (
             <div className="eachboxDiv">
                 <div className="boxcontentDiv">
-                <p>{this.props.name}</p>
-                <img src={this.props.image} alt="#" />
+                    <p>{this.props.name}</p>
+                    <img src={this.props.image} alt="#" />
                 </div>
             </div>
         )

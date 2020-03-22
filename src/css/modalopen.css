@@ -1,0 +1,48 @@
+.bgDiv {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modalDiv {
+    position: absolute;
+    top: 8%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 370px;
+    height: 350px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px -10px;
+}
+
+.internalDiv {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nameboxDiv h1 {
+    font-size: 18px;
+}
+
+.nameboxDiv img {
+    width: 100px;
+    height: 100px;
+}
+
+.textboxDiv {
+    margin: 20px 0;
+}
+
+.textboxDiv p {
+    font-size: 13px;
+    line-height: 1.7;
+}
